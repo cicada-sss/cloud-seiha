@@ -1,7 +1,7 @@
 var data = "";
 
 setInterval(function() {
-    var a = Math.floor(Math.random() * 51);
+    var a = Math.floor(Math.random() * 101);
     console.log(a);
     if (a == 0) {
         data = "あ<br>" + data;
