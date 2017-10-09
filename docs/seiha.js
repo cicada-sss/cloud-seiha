@@ -22,7 +22,7 @@ if( window.confirm( msg ) ) {
     if (C > A) {
         G = Math.round((C / 2) - (A / 2))
     }
-    window.twttr.shareWin = window.open('https://mastodon.cloud/share?text=雲鯖完全制覇しました。 https://cicada-sss.github.io/cloud_seiha/');
+    window.open('https://mastodon.cloud/share?text=雲鯖完全制覇しました。 https://cicada-sss.github.io/cloud_seiha/');
 // 「いいえ」を選択した場合
 } else {
 }
